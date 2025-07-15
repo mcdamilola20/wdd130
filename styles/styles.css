@@ -1,84 +1,100 @@
-:root {
-  --heading-background-color: #f06;
-  --heading-text-color: #333;
-  --heading-font: 'Montserrat', Helvetica, sans-serif;
-  --padding: 1rem;
-  --border: 1px solid rgb(0 0 0 / 0.1);
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Some example variable use in the declarations. */
-
-h1 {
-  background-color: var(--heading-background-color);
-  color: var(--heading-text-color);
-  font-family: var(--heading-font);
-  padding: var(--padding);
-}
-
-aside {
-  margin: 10px auto;
-  padding: var(--padding);
-  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
-}
+/* Navigation Bar */
 nav {
-    background-color: darkblue;
+    background-color: rgb(32, 7, 99);
     padding: 10px;
 }
 
 nav a {
-    color: white;
-    display: block;
+    color: rgb(248, 244, 244);
+    display:inline-table;
     padding: 20px;
+    text-decoration: none;
 }
 
+/* Headings */
 h1 {
     color: darkblue;
 }
 
-img {
-    width: 150px;
+/* Main Profile Image */
+main img {
+    width: 170px;
     height: auto;
-    border: 1px solid black;
+    float: right;
+    margin-left: 1rem;
+    border: 1px solid rgb(33, 23, 167);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    border-radius: 4px;
 }
 
+/* Paragraph Styling */
 p {
-    padding: 10px;
     width: 500px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-align: justify;
+    padding: 10px;
 }
+
+/* Main Layout */
 main {
     max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
+/* Aside Section */
 aside {
-    background-color: rgb(234, 227, 245); width: 150px;
+    position: relative;
+    width: 25em;
+    text-align: center;
     padding: 20px;
-    margin: 20px;
+    align-self: center;
+    margin: 20px auto;
+    background-color: rgb(234, 227, 245);
     border: 1px solid darkblue;
     color: darkblue;
-    width: 25rem;
-    text-align: center;
-}
-aside img {
-  width: 200px;
-  height: auto;
 }
 
-main img {
-    width: 150px;
+aside img {
+    width: 200px;
     height: auto;
- 
+    alignment-baseline: central;
 }
-p {
-    padding: 0;
-  
+
+/* Overlay Heading inside Aside */
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 5px;
+    background-color: rgba(147, 119, 212, 0.5);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
 }
+
+/* Footer */
 footer {
     margin-bottom: 15px;
-    border-top: 1px solid darkblue; align-items: center;
+    border-top: 1px solid darkblue;
     text-align: center;
+    padding: 10px;
+}
+
+/* Class Selectors */
+.box {
+    background-color: rgb(202, 221, 228);
+    margin: 1rem;
+    border: 1px solid rgba(221, 193, 193, 0.1);
+    padding: 1rem;
+    color: rgb(56, 56, 134);
+    box-shadow: 0 0 10px gray;
 }
