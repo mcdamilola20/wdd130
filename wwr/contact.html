@@ -1,69 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fabulous Rafts - About us </title>
-  <meta name="description" content="Hello, here is Kehinde Damilola Martins, a student of BYU Pathway, very resilient and prudent.">
+  <title>Contact Us | Fabulous Rafting Adventures</title>
+  <meta name="description" content="Get in touch with Whitewater Rafting Adventures. Find our contact info, meet our staff, and send us a message.">
   <meta name="author" content="Kehinde Damilola Martins">
   <link rel="stylesheet" href="styles/rafting.css" />
 </head>
+</html>
 <body>
   <!-- HEADER -->
   <header>
     <img src="images/logo2.jpg" alt="Fabulous Rafts Logo" class="logo"/>
     <nav>
       <a href="index.html">Home</a>
-      <a href="about.html" class="active">About Us</a>
+      <a href="about.html" >About Us</a>
       <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
+      <a href="contact.html"class="active">Contact Us</a>
     </nav>
   </header>
 
   <!-- MAIN CONTENT -->
   <main>
-    <!-- HERO SECTION -->
-    <section class="hero-section">
-      <img src="images/Hero Image.jpg" alt="Rafting Adventure" class="hero-img">
-      <div class="hero-content">
-        <h1>Fabulous Rafts</h1>
-        <p>
-          Welcome to Fabulous Rafts,  your premier destination for thrilling rafting adventures and breathtaking treks in the heart of Nigeria. Our company is dedicated to providing unforgettable experiences that connect you with nature and challenge your spirit of adventure.
-        </p>
-        <img src="images/rafting3.jpg" alt="Rafting" class="side-image">
-      </div>
-    </section>
+    <!-- CONTACT INFO SECTION -->
+  <section class="contact-info">
+      <h2>Contact Information</h2>
+      <p>123 River Lane, Rapids City, RC 45678</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: contact@fabulousrafting.com</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126839.06821658298!2d3.3488896!3d6.5568768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1754434527435!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
 
-    <!-- HISTORY SECTION -->
-    <section class="history">
-      <h2>History</h2>
-      <div class="history-grid">
-        <p>
-          Founded in 2020, Fabulous Rafts has quickly become a leader in adventure tourism in Nigeria. Our team of experienced guides and outdoor enthusiasts is passionate about sharing the beauty of our landscapes and the thrill of rafting with adventurers from around the world.
-        </p>
-        <img src="images/rafting4.jpg" alt="Rafting History">
-        <p>
-          We offer a range of rafting trips suitable for all skill levels, from beginners to seasoned rafters. Our trips take you through some of the most stunning rivers and landscapes in Nigeria, providing an exhilarating experience that combines excitement with the beauty of nature.
-        </p>
-      </div>
-    </section>
 
-    <!-- ADVENTURE SECTION -->
-    <section class="adventure">
-      <h2>Adventure Awaits You!</h2>
-      <div class="adventure-grid">
-          <img src="images/rafting1.jpg" alt="Rafting Adventure">
-          <img src="images/rafting2.jpg" alt="Rafting Adventure">
-          <img src="images/rafting3.jpg" alt="Rafting Adventure">
-          <img src="images/rafting5.jpg" alt="Rafting Adventure">
-          <img src="images/rafting4.jpg" alt="Rafting Adventure">
-      </div>
-    </section>
+    <!-- TEAM SECTION -->
+  <section class="team">
+    <h2>Meet Our Team</h2>
+  <figure>
+    <img src="images/emily.jpeg" alt="Emily - River Guide">
+    <figcaption>Emily, Lead River Guide</figcaption>
+  </figure>
+  <figure>
+    <img src="images/jake.jpeg" alt="Jake - Tour Manager">
+    <figcaption>Jake, Tour Manager</figcaption>
+  </figure>
+  <figure>
+    <img src="images/sasha.jpg" alt="Sasha - Safety Coordinator">
+    <figcaption>Sasha, Safety Coordinator</figcaption>
+  </figure>
+</section>
+
+    <!-- Contact -->
+  <section class="contact-form">
+   <h2>Send Us a Message</h2>
+    <form action="#" method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <p>Purpose of Message:</p>
+    <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+    <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+    <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <label>
+      <input type="checkbox" name="subscribe">
+      Please subscribe me to the monthly newsletter
+    </label>
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
   </main>
 
   <!-- FOOTER -->
   <footer>
-    <p>© 2025 Fabulous Rafts</p>
+    
     <nav class="socialmedia">
       <a href="https://facebook.com"><img src="images/fb.svg" alt="Facebook"></a>
       <a href="https://twitter.com"><img src="images/tw.svg" alt="Twitter"></a>
